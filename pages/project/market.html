@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Coinus</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimal-ui">
+<meta name="format-detection" content="telephone=no">
+<link rel="stylesheet" href="/coinus/assets/css/style.css">
+<link rel="shortcut icon" type="image/x-icon" href="/coinus/assets/favicon.ico">
+<!--[if lt IE 10]><link rel="stylesheet" href="/coinus/assets/css/legacy-ie.css"><![endif]-->
+<script src="/coinus/assets/js/lib/modernizr.min.js"></script>
+</head>
+<body>
+<a href="#main" id="skipnav">본문 바로가기</a>
+<div id="wrap">
+    <main id="main" class="main">
+        <div class="coinus">
+            <div class="l-wrap">
+                <header id="header" class="header">
+                <h1 class="h"><a href="/"><img src="/coinus/assets/image/a/logo.png" alt="coinus logo"></a></h1>
+                </header>
+                <div class="coinus-box">
+                    <h2 class="coinus-box-title">실시간 마켓팅 현황</h2>
+                    <div class="coinus-market">
+                        <div class="l-coinus">
+                            <div class="info">
+                                <div class="date">프로젝트 기간 : 2018년 5월 28일 ~ 2018년 6월 12일</div>
+                                <div class="dropdown-box">
+                                    <div class="dropdown-box-cell align-right">오너 <span>이더리움</span> 주소 :</div>
+                                    <div class="dropdown-box-cell dropdown dropdown--wide">
+                                        <div class="dropdown-selector">
+                                            <span class="dropdown-text" title="옵션 선택" role="button">주소 선택</span>
+                                        </div>
+                                        <ul class="dropdown-option">
+                                            <li class="is-current">
+                                                <a href="#colorchip-86"><span>0xsljaljdlfjalsfjklwei878sf9asf79s98sdf7fds</span></a>
+                                            </li>
+                                            <li>
+                                                <a href="#colorchip-90"><span>0xsljaljdlfjalsfjklwei878sf9asf79s98sdf7fds</span></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="chart chart--circle">
+                                    <div class="ct-chart--circle" data-unit="eth">
+                                    </div>
+                                    <div lang="en" class="private">Private CAP: 0.1ETH ~~~~~ 50ETH</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="l-coinus l-coinus--ivory">
+                            <ul class="coinus-list coinus-list--chart">
+                                <li>
+                                    <div class="cell">
+                                        <div class="ct-chart--bar" data-value="700" data-total="1000" data-unit="eth">
+                                        </div>
+                                    </div>
+                                    <div class="cell">apple354</div>
+                                    <div class="cell">
+                                        <a href="popup.html" class="btn btn--blue"><span>자세히</span> 보기</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="cell">
+                                        <div class="ct-chart--bar" data-value="25000" data-total="56654" data-unit="eth">
+                                        </div>
+                                    </div>
+                                    <div class="cell">apple354</div>
+                                    <div class="cell">
+                                        <a href="popup.html" class="btn btn--blue"><span>자세히</span> 보기</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="cell">
+                                        <div class="ct-chart--bar" data-value="30000" data-total="56654" data-unit="eth">
+                                        </div>
+                                    </div>
+                                    <div class="cell">apple354</div>
+                                    <div class="cell">
+                                        <a href="popup.html" class="btn btn--blue"><span>자세히</span> 보기</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="cell">
+                                        <div class="ct-chart--bar" data-value="53440" data-total="56654" data-unit="eth">
+                                        </div>
+                                    </div>
+                                    <div class="cell">apple354</div>
+                                    <div class="cell">
+                                        <a href="popup.html" class="btn btn--blue"><span>자세히</span> 보기</a>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="cell">
+                                        <div class="ct-chart--bar" data-value="40455" data-total="56654" data-unit="eth">
+                                        </div>
+                                    </div>
+                                    <div class="cell">apple354</div>
+                                    <div class="cell">
+                                        <a href="popup.html" class="btn btn--blue"><span>자세히</span> 보기</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <footer id="footer" class="footer" lang="en">Copyright © The Blockchain Inc. All rights reserved.</footer>
+            </div>
+        </div>
+    </main>
+</div>
+<script src="/coinus/assets/js/vendor.js"></script>
+<script src="/coinus/assets/js/coinus.js"></script>
+<script>
+    var $a = $('.coinus-list a');
+
+    $a.on('click', function(e) {
+        var $el = $(this);
+
+        $el.target = "_blank";
+        window.open($el.prop('href'), 'marketPopup', 'height=700,width=665');
+
+        return false;
+    });
+
+</script>
+</body>
+</html>
