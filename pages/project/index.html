@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>Coinus</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimal-ui">
+<meta name="format-detection" content="telephone=no">
+<link rel="stylesheet" href="/coinus/assets/css/style.css">
+<link rel="shortcut icon" type="image/x-icon" href="/coinus/assets/favicon.ico">
+<!--[if lt IE 10]><link rel="stylesheet" href="/coinus/assets/css/legacy-ie.css"><![endif]-->
+<script src="/coinus/assets/js/lib/modernizr.min.js"></script>
+</head>
+<body>
+<a href="#main" id="skipnav">본문 바로가기</a>
+<div id="wrap">
+    <main id="main" class="main">
+        <div class="coinus">
+            <div class="l-wrap">
+                <header id="header" class="header">
+                <h1 class="h"><a href="/"><img src="/coinus/assets/image/a/logo.png" alt="coinus logo"></a></h1>
+                </header>
+                <div class="coinus-box">
+                    <h2 class="coinus-box-title">프로젝트 내용 입력</h2>
+                    <div class="coinus-box-inner">
+                        <form action="event.html">
+                            <fieldset>
+                                <legend class="a11y">form 1</legend>
+                                <ul class="dot-list form-list">
+                                    <li>
+                                        <div class="form-list-func">
+                                            <label class="label" for="input-1">오너주소</label>
+                                            <input type="text" id="input-1" class="input-block">
+                                            <button type="button" class="btn btn--blue"><span>중복체크</span></button>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <label class="label" for="input-2">프로젝트명</label>
+                                        <input type="text" id="input-2" class="input-block">
+                                    </li>
+                                    <li class="fixed">
+                                        <label class="label" for="textarea-1">프로젝트 설명</label>
+                                        <textarea name="textarea" id="textarea-1" rows="3"></textarea>
+                                    </li>
+                                    <li>
+                                        <div class="form-list-func form-list-file">
+                                            <button type="button"><span>이미지/동영상</span></button>
+                                            <input type="file" id="file-1" class="a11y" accept=".jpg, .jpeg, .png">
+                                            <label for="file-1">
+		                      <span class="input-block">image.jpg</span>
+		                      <div class="btn btn--blue">찾아보기</div>
+		                    </label>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <label class="label" for="input-3">홈페이지</label>
+                                        <input type="text" id="input-3" class="input-block">
+                                    </li>
+                                    <li>
+                                        <label class="label" for="input-4">위챗</label>
+                                        <input type="text" id="input-4" class="input-block">
+                                    </li>
+                                    <li>
+                                        <label class="label" for="input-5">텔레그램</label>
+                                        <input type="text" id="input-5" class="input-block">
+                                    </li>
+                                    <li>
+                                        <label class="label" for="input-6">페이스북</label>
+                                        <input type="text" id="input-6" class="input-block">
+                                    </li>
+                                    <li>
+                                        <label class="label" for="input-7">트위터</label>
+                                        <input type="text" id="input-7" class="input-block">
+                                    </li>
+                                    <li>
+                                        <label class="label" for="input-7">라인</label>
+                                        <input type="text" id="input-7" class="input-block">
+                                    </li>
+                                </ul>
+                            </fieldset>
+                            <fieldset>
+                                <legend class="a11y">form 2</legend>
+                                <ul class="dot-list form-list">
+                                    <li>
+                                        <div class="form-list-grid">
+                                            <label class="label" for="input-8">프로젝트 기간</label>
+                                            <div class="cell">
+                                                <div class="cell-inner">
+                                                    <input type="text" id="input-8" class="input-block" value="" data-toggle="datepicker">
+                                                </div>
+                                                <div class="cell-inner">
+                                                    <div class="selectbox">
+                                                        <select name="select" id="select-1">
+		                            <option value="project-1">utc</option>
+		                            <option value="project-2">00</option>
+		                            <option value="project-3">01</option>
+		                            <option value="project-4">02</option>
+		                          </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="cell">
+                                                <div class="cell-inner">
+                                                    <label class="a11y" for="input-9">내용</label>
+                                                    <input type="text" id="input-9" class="input-block" value="" data-toggle="datepicker">
+                                                </div>
+                                                <div class="cell-inner">
+                                                    <div class="selectbox">
+                                                        <select name="select" id="select-2">
+		                            <option value="project-1">utc</option>
+		                            <option value="project-2">00</option>
+		                            <option value="project-3">01</option>
+		                            <option value="project-4">02</option>
+		                          </select>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <label class="label" for="select-3">프로젝트 선택</label>
+                                        <div class="selectbox">
+                                            <select name="select" id="select-3">
+		                      <option value="project-1">Private</option>
+		                      <option value="project-2">Public</option>
+		                    </select>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <label class="label" for="input-10">CAP</label>
+                                        <input type="text" id="input-10" class="input-block" value="2,000 ETH">
+                                    </li>
+                                    <li>
+                                        <div class="form-list-value">
+                                            <label class="label" for="input-11">개인 CAP</label>
+                                            <div class="cell">
+                                                <div class="cell-inner">
+                                                    <span>최소</span>
+                                                </div>
+                                                <div class="cell-inner">
+                                                    <input type="text" id="input-11" class="input-block" value="0.001 ETH">
+                                                </div>
+                                            </div>
+                                            <div class="cell">
+                                                <div class="cell-inner">
+                                                    <span>최대</span>
+                                                </div>
+                                                <div class="cell-inner">
+                                                    <input type="text" id="input-11" class="input-block" value="100.000 ETH">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <label class="label" for="input-12">교환비율</label>
+                                        <input type="text" id="input-12" class="input-block" value="1ETH --------- 20,000 CNUS">
+                                    </li>
+                                    <li>
+                                        <label class="label" for="select-4">KYC 인증단계</label>
+                                        <div class="selectbox">
+                                            <select name="select" id="select-4">
+		                      <option value="step-1">1단계</option>
+		                      <option value="step-2">2단계</option>
+		                      <option value="step-3">3단계</option>
+		                    </select>
+                                        </div>
+                                    </li>
+                                    <li class="fixed">
+                                        <button type="button" class="label">레퍼럴 코드 생성</button>
+                                        <ul class="form-list-code">
+                                            <li>
+                                                <div class="cell-box">
+                                                    <div class="cell">
+                                                        <div class="input-wrap">
+                                                            <label for="code-1">보너스</label>
+                                                            <input lang="en" type="text" id="code-1" class="input-block" value="25%">
+                                                        </div>
+                                                        <button type="button" class="btn btn--pink">코드생성</button>
+                                                    </div>
+                                                    <div class="cell">
+                                                        <span lang="en">apple354</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="cell-box">
+                                                    <div class="cell">
+                                                        <div class="input-wrap">
+                                                            <label for="code-1">보너스</label>
+                                                            <input lang="en" type="text" id="code-1" class="input-block" value="25%">
+                                                        </div>
+                                                        <button type="button" class="btn btn--pink">코드생성</button>
+                                                    </div>
+                                                    <div class="cell">
+                                                        <span lang="en">apple354</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="cell-box">
+                                                    <div class="cell">
+                                                        <div class="input-wrap">
+                                                            <label for="code-1">보너스</label>
+                                                            <input lang="en" type="text" id="code-1" class="input-block" value="25%">
+                                                        </div>
+                                                        <button type="button" class="btn btn--pink">코드생성</button>
+                                                    </div>
+                                                    <div class="cell">
+                                                        <span lang="en">apple354</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <button type="button" class="btn-plus"><img src="/coinus/assets/image/a/plus.png" alt=""></button>
+                                    </li>
+                                </ul>
+                            </fieldset>
+                            <div class="func">
+                                <button type="submit" class="btn btn--large btn--deepblue"><span>프로젝트 등록하기</span></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <footer id="footer" class="footer" lang="en">Copyright © The Blockchain Inc. All rights reserved.</footer>
+            </div>
+        </div>
+    </main>
+</div>
+<script src="/coinus/assets/js/lib/TweenMax.js"></script>
+<script src="/coinus/assets/js/lib/jquery.min.js"></script>
+<script src="/coinus/assets/js/lib/datepicker.js"></script>
+<script src="/coinus/assets/js/coinus.js"></script>
+<script src="/coinus/assets/js/datepicker.ui.js"></script>
+</body>
+</html>
