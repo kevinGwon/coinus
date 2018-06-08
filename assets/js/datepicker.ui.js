@@ -1,5 +1,3 @@
-import '@fengyuanchen/datepicker/dist/datepicker';
-
 var Datepicker = (function(){
   function Datepicker() {
     this.init();
